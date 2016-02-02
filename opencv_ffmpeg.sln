@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "opencv_ffmpeg", "src\wrapper\opencv_ffmpeg.vcxproj", "{DE48792E-2810-432E-B3B4-288A9D0751C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "src\test\test.vcxproj", "{79470181-B841-424D-AE0D-BE2E45036D8A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DE48792E-2810-432E-B3B4-288A9D0751C3} = {DE48792E-2810-432E-B3B4-288A9D0751C3}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE48792E-2810-432E-B3B4-288A9D0751C3}.Debug|x64.ActiveCfg = Debug|x64
+		{DE48792E-2810-432E-B3B4-288A9D0751C3}.Debug|x64.Build.0 = Debug|x64
+		{DE48792E-2810-432E-B3B4-288A9D0751C3}.Debug|x86.ActiveCfg = Debug|x64
+		{DE48792E-2810-432E-B3B4-288A9D0751C3}.Release|x64.ActiveCfg = Release|x64
+		{DE48792E-2810-432E-B3B4-288A9D0751C3}.Release|x64.Build.0 = Release|x64
+		{DE48792E-2810-432E-B3B4-288A9D0751C3}.Release|x86.ActiveCfg = Release|x64
+		{79470181-B841-424D-AE0D-BE2E45036D8A}.Debug|x64.ActiveCfg = Debug|x64
+		{79470181-B841-424D-AE0D-BE2E45036D8A}.Debug|x64.Build.0 = Debug|x64
+		{79470181-B841-424D-AE0D-BE2E45036D8A}.Release|x64.ActiveCfg = Release|x64
+		{79470181-B841-424D-AE0D-BE2E45036D8A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

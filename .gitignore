@@ -1,0 +1,12 @@
+!*
+x64/*
+*.pdb
+*.obj
+*.opendb
+*.vc.db
+*.tlog
+*.lastbuildstate
+*.idb
+*.log
+*.suo
+*.user
